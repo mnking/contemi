@@ -1,6 +1,6 @@
 # Contemi Technical Notes
-## Install Pegasus
-####Clone wrap repository
+> ## Install Pegasus
+###Clone wrap repository
 ```sh
 git clone -b develop git@bitbucket.org:contemivn/pegasus-dashboard-docker-vagrant.git
 ```
@@ -12,6 +12,10 @@ git clone -b develop git@bitbucket.org:contemivn/pegasus-dashboard-docker-vagran
 ```sh
 shell/docker/docker-run.sh -d
 ```
+
+<!-- -->
+
+> ## To be continues
 
 
 
