@@ -31,3 +31,9 @@ $maxLength = $config->get('inputMaxLength', 255);
 
     </div>
 </div>
+
+<button type="submit" class="btn btn-primary" data-loading-button="{promise: productCtrl.saveProductPromise}">
+    <i class="fa fa-save"></i>
+    <i class="fa fa-spinner fa-spin"></i>
+    <?php echo JText::_("SAVE") ?>
+</button>
